@@ -1,0 +1,58 @@
+/*Шрифт google Oswald  */
+/* 1 */
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+
+/* 2 Название только EN*/
+@import url(https://fonts.googleapis.com/css?family=DotGothic16:regular);
+ 
+/* 3 */
+@import url(https://fonts.googleapis.com/css?family=Underdog:regular);
+
+
+
+/* 4 */
+@font-face {
+    font-family: 'Comfortaa-Bold';
+    src: url('../fonts/Comfortaa-Bold.woff2') format('woff2'),
+         url('../fonts/Comfortaa-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+/* 5*/
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../fonts/Comforter-Regular.woff2') format('woff2'),
+         url('../fonts/Comforter-Regular.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+/* 6 */
+@font-face {
+    font-family: 'Lobster-Regular';
+    src: url('../fonts/Lobster-Regular.woff2') format('woff2'),
+         url('../fonts/Lobster-Regular.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+/* 7 */
+@font-face {
+    font-family: 'RuslanDisplay-Regular';
+    src: url('..fonts/RuslanDisplay-Regular.woff2') format('woff2'),
+         url('../fonts/RuslanDisplay-Regular.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 8 только EN */
+@font-face {
+    font-family: 'FontdinerSwanky-Regular';
+    src: url('../fonts/FontdinerSwanky-Regular.woff2') format('woff2'),
+         url('../fonts/FontdinerSwanky-Regular.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
