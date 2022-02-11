@@ -8,13 +8,15 @@ body{
 }
 
 .wrapper {
-    max-width: 1500px;
+    
+    min-width: 1500px;
     min-height: 2000px;
     background-image: url('../img/f175394eeaf309ff968ed9f1a7b26c70.jpg');
-    background-repeat: no-repeat;
     padding-top: 182px;
 }
 .block_face {
+    width: auto;
+    background-color: ;
 }
 .all_eyes {
 }
