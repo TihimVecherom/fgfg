@@ -4,56 +4,210 @@
 @import "fonts.css";
 
 body{ 
-    font-family: 'Lobster-Regular';
+    min-height: 1000px;
+    font-family: 'RuslanDisplay-Regular';
 }
 
 .wrapper {
-    overflow:scroll;
-    min-width: 1500px;
-    min-height: 2000px;
+    overflow: hidden;
+}
+
+.content{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.header {
+    min-width: 300px;
+    padding:0 50px 0 290px;
+    background: black url('../img/logo.png') fixed no-repeat;
+    background-position: 7.8% 20px;
+    box-shadow: inset 0 0 10px rgb(235, 235, 2);
+}
+.block_detals {
+}
+.all_menu{
+    padding: 50px 5px 5px 5px;
+    min-width: 180px;
+    margin-left: 50%;
+    font-size:25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-shadow: 0 0 5px gray;
+    background: rgba(255, 251, 1, 0.897) url('../img/icon-delivery.png') fixed repeat;
+    box-shadow: 0 0 20px yellow,inset 0 0 20px yellow;
+}
+
+.menu {
+    display: inline-block;
+    text-decoration:overline;
+    background-color: rgba(0, 122, 55, 0.9);
+    border-radius: 60px;
+}
+.rest {
+    display: inline-block;
+    text-decoration:overline;
+    background-color: rgba(1, 221, 100, 0.9);
+    border-radius: 60px;
+    
+}
+.sale {
+    display: inline-block;
+    text-decoration:overline;
+    background-color: rgba(1, 221, 100, 0.9);
+    border-radius: 60px;
+    
+}
+.news {
+    display: inline-block;
+    text-decoration:overline;
+    background-color: rgba(1, 221, 100, 0.9);
+    border-radius: 60px;
+}
+.franch {
+    display: inline-block;
+    background-color: rgb(17, 136, 136);
+}
+
+.all_block{
+    display: inline-block;
+}
+
+.block_1 {
+    margin: 0 auto;
+    display: inline-block;
+    background: url('../img/depositphotos_445374754-stock-photo-delicious-burgers-seamless-background-for.jpg') fixed repeat;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+}
+
+.block_1_1 {
+    display: inline-block;
+    margin:0 0 0 10px;
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    background: url('../img/3OEd.gif') no-repeat;
+    background-size: 300px 300px;
+    box-shadow: 0 0 10px grey, inset 0 0 10px grey;
+}
+.block_1_2 {  
+    display: inline-block;
+    background-color: chocolate;
+    margin:0 0 0 10px;
+    width: 300px;
+    height: 300px;
+    background: url('../img/2gkE.gif') no-repeat;
+    background-size: 300px 300px;
+    box-shadow: 0 0 10px grey, inset 0 0 10px grey;
+}
+.block_1_3 {
+    display:inline-block;
+    margin:0 0 0 10px;
+    width: 300px;
+    height: 300px;
+    background: url('../img/PuVI.gif') no-repeat;
+    background-size: 400px 300px;
+    box-shadow: 0 0 10px grey, inset 0 0 10px grey;
+}
+.block_2 {
+    padding: 20px 50px 20px 50px;
+    font-size: 30px; 
+    background-image:url('../img/60.jpg') ;
+    background-position: 0 -300px;
+    background-size:100% auto;  
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 30px grey, inset 5px 0 45px rgb(0, 0, 0);
+    background-color: antiquewhite;
+    
+}
+.block_2 p{
+    font-size: 55px;
+    text-shadow: 0 0 40px white;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.list{
+    padding: 20px 10px 10px 10px;
+    background-image: rgba(119, 119, 119, 0.8,);
+    box-shadow: 0 0 10px rgba(119, 119, 119, 0.8),inset 0 0 10px rgba(190, 189, 189, 0.8);
+    border-radius: 30px;
+}
+.list li{
+    text-align: left;
+    background: url("../img/png-transparent-cheeseburger-hamburger-whopper-mcdonald-s-big-mac-fast-food-egg-removebg-preview.png") 0 0 / auto no-repeat;
+    background-size: 80px 45px;
+    padding: 0px 0px 10px 70px;
+    text-decoration: underline rgba(119, 119, 119, 0.8);
+    text-shadow: 0 0 2px rgb(64, 65, 61);
+}
+.block_3 {
+   
+}
+.block_4 {
+}
+.block_5 {
+}
+.block_6 {
+}
+
+
+
+
+/* .block_all{
+
+}
+
+.block_detals {
+    display: inline-block;
+    min-width: 400px;
+    min-height: 250px;
     background-image: url('../img/f175394eeaf309ff968ed9f1a7b26c70.jpg');
-    padding-top: 182px;
+    
 }
-.block_face {
-    width: auto;
-    background-color: ;
-}
-.all_eyes {
+.all {
+   
+    border: 3px 2px red;
+    box-shadow: 3px 3px 30px red,inset 3px 3px 30px red ;
 }
 
 .block_left_eyes {
 }
 
 .left_eyes {
-    margin-left: 425px;
-    max-width: 40px;
-    min-height: 40px;
-    background: rgba(255, 255, 255, 0.1) url('../img/eye.png') fixed no-repeat;
-    background-size: 30px;
-    background-position: 430px 187.5px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px red;
-}
-.block_eyes_right{
-}
-
-.right_eyes{
-    margin-left: 485px;
-    margin-top: -40px;
-    margin-bottom: 100px;
+    display: inline-block;
     width: 40px;
     height: 40px;
     background: rgba(255, 255, 255, 0.1) url('../img/eye.png') fixed no-repeat;
     background-size: 30px;
-    background-position: 490px 187.5px;
+    background-position: 0 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px red;
+}
+.block_eyes_right{
+    background-color: aqua;
+
+}
+
+.right_eyes{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1) url('../img/eye.png') fixed no-repeat;
+    background-size: 30px;
+    background-position: 50px 0;
     border-radius: 50%;
     border: 2px;
     box-shadow: 0px 0px 10px red,inset 0px 0px 10px rgba(255, 0, 0, 0.1);
+    background-color: aqua;
 }
 
-.block_heard{
-    margin-top: -380px;
-    margin-left: 505px;
+.block_heard{ 
     width: 105px;
     height: 105px;
     background: rgba(255, 255, 255, 0.1) url('../img/72zF-unscreen.gif') ;
@@ -65,15 +219,18 @@ body{
 }
 
 .block_tract {
-    margin-left: 464px;
     width: 30px;
-    height: 500px;
+    height: 100px;
     background: rgba(255, 255, 255, 0.1) url('') 463px 187.5px / fixed no-repeat;
     background-size: 80px;
     border-radius: 50%;
     box-shadow: 0px 0px 10px red;
 }
 
+.block_header_text{
+   max-width: 400px;
+   min-height: 50px;
+}
 
 /* .block_tract {
     margin-left: 500px;
@@ -96,8 +253,8 @@ body{
     background-size: 80px;
     background-position: 463px 187.5px;
     border-radius: 50%;
-    margin-bottom: 100px;
-    box-shadow: 0px 0px 10px red;
+    margin-bottom: 100px; */
+    /* box-shadow: 0px 0px 10px red;
     transform: rotate(90deg); */
 
-}
+} */
